@@ -531,3 +531,160 @@ body{
 .bx{
     font-size: 30px;
 }
+
+@media screen and (max-width:900px){
+    .mockup{
+        width: 600px;
+        height: auto;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .text{
+        font-size: 22px;
+    }
+    .cta{
+        padding: 15px 22px;
+    }
+    .container__cards{
+        justify-content: space-evenly;
+    }
+    .services .card{
+        width: 45%;
+    }
+    .background{
+        width: 50%;
+    }
+    .card{
+        width: 40%;
+    }
+
+    .testimony__card{
+        width: 40%;
+    }
+    .testimony__container{
+        justify-content: space-evenly;
+    }
+    .chek__item{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .newsletter{
+        width: 80%;
+    }
+    .download{
+        width: 100%;
+    }
+    .download__app{
+        justify-content: space-between;
+    }
+
+    .download__item{
+        width: 45%;
+    }
+    .get__email{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .socialmedia__icon{
+        font-size: 20px;
+    }
+    .socialmedia__legend{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:700px){
+    main .container,
+    footer .container{
+        padding: 60px;
+    }
+
+    .nav__container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .logo__picture{
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .nav__caja{
+        height: auto;
+    }
+
+    .links{
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .link{
+        padding: 8px 10px;
+    }
+
+    .caja__main{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .caja__textos{
+        width: 100%;
+        text-align: center;
+    }
+    .mockup{
+        width: 60%;
+        margin-bottom: 15px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .text{
+        font-size: 25px;
+    }
+    .subtitle{
+        font-size: 35px;
+        text-align: center;
+    }
+    .text__section{
+        font-size: 25px;
+        text-align: center;
+    }
+    .services .card{
+        width: 80%;
+    }
+    .container__bg{
+        justify-content: space-evenly;
+    }
+    .card{
+        margin-bottom: 50px;
+        width: 60%;
+    }
+    .card__title{
+        font-size: 40px;
+    }
+    .card__button{
+        width: 100%;
+    }
+    .background{
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .background__text{
+        display: none;
+    }
+    .testimony__card{
+        width: 70%;
+    }
+    .testimony__name{
+        font-size: 20px;
+    }
+    .item__contact{
+        width: 100%;
+        padding: 30px;
+    }
+    .container__modifier{
+        width: 80%;
+    }
+}
